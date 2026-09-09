@@ -4,4 +4,4 @@ console.error("Ky eshte nje gabim.");
 
 console.warn("Ky eshte nje paralajmerim.");
 
-console.log("Une jam Riana.")
+console.log("Une jam Riana.   ")
