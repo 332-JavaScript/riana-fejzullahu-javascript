@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #edf2f4;
+  color: black;
+}
+
+.container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  color: #2b2d42;
+}
+
+.title {
+  font-size: 6rem;
+  color: #2b2d42;
+}
+
+.number {
+  font-size: 14rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  font-size: 3rem;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 80px;
+  height: 50px;
+  font-size: 2.5rem;
+  background-color: #8d99ae;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 0 2rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  transition: 0.1s linear;
+}
+
+.btn:hover {
+  background-color: #ef233c;
+  transform: translateY(-6px);
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  transition: 0.1s linear;
+}
+
+.btn:active {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.1s linear;
+}

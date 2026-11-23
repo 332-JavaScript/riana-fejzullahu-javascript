@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="extra.css">
+    <script src="extra.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Challenge</h1>
+        <div class="players">
+            <div class="player-active" id="player1">
+                <h2>Player 1</h2>
+                <p class="score" id="score1">0</p>
+                <p class="turn" id="turn1">Your turn!</p>
+            </div>
+            <div class="player-active" id="player2">
+                <h2>Player 2</h2>
+                <p class="score2">0</p>
+                <p class="turn" id="turn2">Waiting</p>
+            </div>
+        </div>
+        <div class="dice-selection">
+            <p id="message">Player 1, roll the dice!</p>
+            <button id="dice" onclick="rollDice()"></button>
+            <p id="result">Click the dice to roll!</p>
+        </div>
+        <div class="buttons">
+            <button id="finishBtn" onclick="finishGame()">Finish Game</button>
+            <button id="restartBtn" onclick="restartGame()">Restart</button>
+        </div>
+        <h2 id="winner"></h2>
+    </div>
+</body>
+</html>

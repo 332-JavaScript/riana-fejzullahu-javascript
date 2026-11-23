@@ -9,9 +9,9 @@
 //     p.innerHTML = `Keni selektuar: ${select.value}`;
 // })
 
-const buttonElem = document.querySelector("#button");
+// const buttonElem = document.querySelector("#button");
 
-buttonElem.addEventListener("click", ()=>{
-    const oldText = buttonElem.innerHTML;
-    return buttonElem.innerHTML = oldText === "ON" ? "OFF" : "ON";
-})
+// buttonElem.addEventListener("click", ()=>{
+//     const oldText = buttonElem.innerHTML;
+//     return buttonElem.innerHTML = oldText === "ON" ? "OFF" : "ON";
+// })
